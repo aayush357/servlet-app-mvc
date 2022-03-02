@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <welcome-file-list>
+    <welcome-file>Login.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>total</servlet-name>
+    <servlet-class>com.assign.LoginController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>total</servlet-name>
+    <url-pattern>/totalProd</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>add</servlet-name>
+    <servlet-class>com.assign.LoginController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>add</servlet-name>
+    <url-pattern>/add</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>edit</servlet-name>
+    <servlet-class>com.assign.LoginController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>edit</servlet-name>
+    <url-pattern>/edit</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>remove</servlet-name>
+    <servlet-class>com.assign.LoginController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>remove</servlet-name>
+    <url-pattern>/remove</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>search</servlet-name>
+    <servlet-class>com.assign.LoginController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>search</servlet-name>
+    <url-pattern>/search</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>tot</servlet-name>
+    <servlet-class>com.assign.TotalServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>tot</servlet-name>
+    <url-pattern>/total</url-pattern>
+  </servlet-mapping>
+</web-app>
